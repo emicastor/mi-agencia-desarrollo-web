@@ -1,0 +1,114 @@
+.whatsapp {
+    position: fixed;
+    right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    transition: .4s;
+    bottom: 2vh
+}
+
+.formulario__input-error {
+    font-size: 14px;
+    display: none;
+}
+
+.formulario__input-error-activo {
+    display: block;
+}
+
+.formulario__mensaje {
+    display: none;
+}
+
+.formulario__mensaje-activo {
+    display: block;
+}
+
+.formulario__mensaje-exito {
+    display: none;
+}
+
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #e74c3c;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .form-control {
+    border: 2px solid #e74c3c;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* CAMBIAR EN BOOTSTRAP */
+.form-control,
+.accordion-button {
+    box-shadow: none !important;
+}
+
+.theme-nav {
+    background-color: var(--bs-emphasis-color);
+    color: var(--bs-body-bg);
+}
+
+.theme-card-text {
+    color: var(--bs-emphasis-color);
+}
+
+.theme-card-footer {
+    background-color: var(--bs-body-bg);
+}
+
+.theme-jumbotron-sitio-web,
+.theme-btn-landing-page,
+.theme-cta,
+.theme-modal-header {
+    background-color: var(--bs-emphasis-color);
+    color: var(--bs-body-bg);
+}
+
+.theme-btn-jumbotron-sitio-web,
+.theme-btn-cta,
+.theme-btn-cta:hover {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-emphasis-color);
+}
+
+.theme-jumbotron-landing-page {
+    background-color: var(--bs-body-bg);
+    border-color: var(--bs-light-bg-subtle);
+}
+
+.theme-btn-jumbotron-landing-page {
+    background-color: var( --bs-tertiary-color);
+    color: var(--bs-white);
+}
+
+.theme-btn-landing-page:hover {
+    background-color: var(--bs-emphasis-color);
+    color: var(--bs-body-bg);
+}
+
+.theme-jumbotron {
+    background-color: var(--bs-light-bg-subtle);
+}
+
+.dev-web-font {
+    font-size: 13px!important;
+}
